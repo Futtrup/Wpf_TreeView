@@ -33,10 +33,31 @@ namespace Wpf_TreeView_02
         {
             List<Node> dataList = new List<Node>
             {
-                new Node { Name = "Test 1"},
+                new Node { 
+                    Name = "Test 1", 
+                    ChildNodes = new List<Node> {
+                        new Node { Name = "Child1" }, 
+                        new Node { Name = "Child2" }, 
+                        new Node { Name = "Child3" } 
+                    } 
+                },
                 new Node { Name = "Test 2"},
                 new Node { Name = "Test 3"},
-                new Node { Name = "Test 99"}
+                new Node { 
+                    Name = "Test 99", 
+                    ChildNodes = new List<Node> {
+                        new Node { Name = "Child1" }, 
+                        new Node { Name = "Child2" }, 
+                        new Node { 
+                            Name = "Child3", 
+                            ChildNodes = new List<Node> { 
+                                new Node { Name = "Child1" }, 
+                                new Node { Name = "Child2" }, 
+                                new Node { Name = "Child3" } 
+                            } 
+                        } 
+                    }  
+                },
             };
             return dataList;
         }
@@ -45,5 +66,6 @@ namespace Wpf_TreeView_02
     public class Node
     {
         public string Name { get; set; } = string.Empty;
+        public IList<Node>? ChildNodes { get; set; }
     }
 }

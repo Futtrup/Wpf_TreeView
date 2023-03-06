@@ -15,9 +15,9 @@
             {StaticResource MyData},
             Path=DataList}">
             <TreeView.ItemTemplate>
-                <DataTemplate DataType="{x:Type local:Node}">
+                <HierarchicalDataTemplate DataType="{x:Type local:Node}" ItemsSource="{Binding ChildNodes }">
                     <TextBlock Text="{Binding Path=Name}" />
-                </DataTemplate>
+                </HierarchicalDataTemplate>
             </TreeView.ItemTemplate>
 
         </TreeView>
