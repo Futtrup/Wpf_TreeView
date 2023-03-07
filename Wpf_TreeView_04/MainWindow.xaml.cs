@@ -56,7 +56,7 @@ namespace Wpf_TreeView_04
 
     public class FamilyMember
     {
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         public int Age { get; set; }
     }
