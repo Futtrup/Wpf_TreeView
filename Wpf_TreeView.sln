@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_TreeView_01", "Wpf_TreeView_01\Wpf_TreeView_01.csproj", "{4651B9EC-ED0C-42B7-8862-D8CC417EDA73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf_TreeView_01", "Wpf_TreeView_01\Wpf_TreeView_01.csproj", "{4651B9EC-ED0C-42B7-8862-D8CC417EDA73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_TreeView_02", "Wpf_TreeView_02\Wpf_TreeView_02.csproj", "{89ED2185-2E73-4177-A0B3-495844E4D90F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf_TreeView_02", "Wpf_TreeView_02\Wpf_TreeView_02.csproj", "{89ED2185-2E73-4177-A0B3-495844E4D90F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf_TreeView_03", "Wpf_TreeView_03\Wpf_TreeView_03.csproj", "{3298F4BD-B531-4B5F-AB22-176B93B5B7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_TreeView_04", "Wpf_TreeView_04\Wpf_TreeView_04.csproj", "{FC22651A-0FF0-4BC9-BE91-85A7BD0D820B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{89ED2185-2E73-4177-A0B3-495844E4D90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89ED2185-2E73-4177-A0B3-495844E4D90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89ED2185-2E73-4177-A0B3-495844E4D90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3298F4BD-B531-4B5F-AB22-176B93B5B7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3298F4BD-B531-4B5F-AB22-176B93B5B7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3298F4BD-B531-4B5F-AB22-176B93B5B7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3298F4BD-B531-4B5F-AB22-176B93B5B7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC22651A-0FF0-4BC9-BE91-85A7BD0D820B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC22651A-0FF0-4BC9-BE91-85A7BD0D820B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC22651A-0FF0-4BC9-BE91-85A7BD0D820B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC22651A-0FF0-4BC9-BE91-85A7BD0D820B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
