@@ -17,7 +17,12 @@
         <TreeView x:Name="trv_BrowseNodes" ItemsSource="{Binding Root}">
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate DataType="{x:Type local:Node}" ItemsSource="{Binding ChildNodes}">
-                    <TextBlock Text="{Binding Header}"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Ellipse Margin="3" Width="10" Height="10" Fill="Black" />
+                        
+                        <TextBlock Text="{Binding Header}"/>                        
+                    </StackPanel>
+                    
                 </HierarchicalDataTemplate>
             </TreeView.ItemTemplate>
         </TreeView>
